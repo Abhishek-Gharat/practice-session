@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--   grid minmax function -->
+    <style>
+        .main-div {
+            width: 50%;
+            display: grid;
+            grid-template-columns :minmax(150px,1fr) 1fr 1fr 1fr;
+            grid-template-rows: repeat(2,minmax(150px,1fr));
+            grid-gap: 10px;
+        }
+        .red{
+            background-color: red;
+            padding: 20px ;
+        }
+        .blue{
+            background-color: blue;
+            padding: 20px;
+        }
+        .yellow{
+            background-color: yellow;
+            padding: 20px;
+        }
+        .sky{
+            background-color:rgb(0, 159, 171);
+            padding: 20px;
+        }
+        .green{
+            background-color: green;
+            padding: 20px;
+            
+        }
+        .orange{
+            background-color: orange;
+            padding:20px;
+        }
+        .black{
+            background-color: rgb(211, 89, 89);
+        } 
+        .eight{
+            background-color: rgb(121, 234, 29);
+        } 
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="red">Lorem ipsum, dolor sit amet consectetur adipisicing elit.  </div>
+        <div class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iste iusto ab quaerat. Aspernatur cupiditate, voluptatum quaerat minus assumenda ducimus. Veniam laborum explicabo nostrum impedit totam molestiae dolorum sed eius similique, accusamus soluta commodi repudiandae dolor autem esse? Suscipit delectus dolorum pariatur ullam libero officia eveniet tempora ratione dicta perspiciatis.</div>
+        <div class="yellow">box1</div>
+        <div class="sky">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum beatae labore itaque voluptate laborum maiores eum reiciendis mollitia dolor quia.</div>
+        <div class="green">sidebar</div>
+        <div class="orange">lo</div>
+        <div class="black">footer\\</div>
+        <div class="eight">eight</div>
+</body>
+</html>
