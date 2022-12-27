@@ -1,0 +1,10 @@
+.container{
+    display: flex; 
+    height: auto;
+    background-color: antiquewhite;
+    gap: 20px;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}

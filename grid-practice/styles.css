@@ -56,3 +56,12 @@
     /* grid-column: -4/-1; */
     grid-area: footer;
 }
+@media (min-width:50em) {
+        .orange{
+            background-color: aqua;
+            grid-area:sidebar;
+        }    
+        .green{
+            grid-area: containt;
+        }
+}
