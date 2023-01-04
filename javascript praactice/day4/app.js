@@ -1,11 +1,21 @@
-// program to find the largest among three numbers
+// write a program using prompt function
+//  to take input of age as a value from the user and use alert to tell him if he can drive
+function set() {
+let age=prompt("enter your age")
+if(age>=18){
+  return alert("you are eligible") 
+}
+else {
+   return alert("your not eligible")
+}
+}
+set();
 
-// take input from the user
-const num1 = parseFloat(prompt("Enter first number: "));
-const num2 = parseFloat(prompt("Enter second number: "));
-const num3 = parseFloat(prompt("Enter third number: "));
+let eg=prompt("do you want to see it again")
+ set()
 
-const largest = Math.max(num1, num2, num3);
 
-// display the result
-console.log("The largest number is " + largest);
+
+
+// in privious question use confirm to ask user
+// if he wants to see the prompt agai
