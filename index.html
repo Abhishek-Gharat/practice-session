@@ -1,26 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>1st</h1>
-    <h2>2nd</h2>
-    <h3>3rd</h3>
-    <h4>4rth</h4>
-    <h5>5th</h5>
-    <h6>6th</h6>
-    <h7>7th</h7>
-    <h1>8th</h1>
-    <h2>8TH</h2>
-    <h1>8th</h1>
-    <h3>9th</h3>
-    <h2>10th</h2>
-    <h3>12th</h3>
-    <h4>13th</h4>
-    <h5>14th</h5>
-</body>
-</html>
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>My Profile</title> 
+<style> body { margin: 0; padding: 0; 
+font-family: Arial, sans-serif; 
+} 
+ 
+.container { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; max-width: 1200px; 
+    margin: 0 auto; padding: 20px; 
+} 
+.col { flex-basis: 33.33%; padding: 20px; 
+box-sizing: border-box; 
+} 
+.col-1 { order: 1; 
+} 
+.col-2 { order: 2; 
+} 
+.col-3 { order: 3; 
+} 
+.profile-pic { max-width: 100%; height: auto; 
+} 
+h1 { margin-top: 0; 
+} 
+</style> 
+</head> 
+<body> 
+<div class="container"> 
+<div class="col col-1"> 
+<img src="vivek.jpg" alt="Profile picture" class="profile-pic" style="height: 200px;" 
+width="200px"/> 
+</div> 
+<div class="col col-2"> 
+<h1>Vivek Yadav</h1> 
+<p>Age: 23</p> 
+<p>Location: Punjab</p> 
+<p>Occupation: Front end Developer</p> 
+</div> 
+<div class="col col-3"> 
+<h2>Friends</h2> 
+<ul> 
+<li>Abhi</li> 
+<li>souvik</li> 
+<li>Vivek</li> 
+</ul> 
+</div> 
+</div> 
+<script>
+    const name = "John Doe"; const age = 30; const location = "New York"; 
+const occupation = "Software Developer"; 
+ 
+document.querySelector("h1").textContent = name; document.querySelectorAll("p")[0].textContent = `Age: ${age}`; document.querySelectorAll("p")[1].textContent = `Location: ${location}`; document.querySelectorAll("p")[2].textContent = `Occupation: ${occupation}`; 
+
+</script> 
+</body> 
+</html> 
