@@ -2,36 +2,16 @@
 <html> 
 <head> 
 <title>My Profile</title> 
-<style> body { margin: 0; padding: 0; 
-font-family: Arial, sans-serif; 
-} 
- 
-.container { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; max-width: 1200px; 
-    margin: 0 auto; padding: 20px; 
-} 
-.col { flex-basis: 33.33%; padding: 20px; 
-box-sizing: border-box; 
-} 
-.col-1 { order: 1; 
-} 
-.col-2 { order: 2; 
-} 
-.col-3 { order: 3; 
-} 
-.profile-pic { max-width: 100%; height: auto; 
-} 
-h1 { margin-top: 0; 
-} 
-</style> 
+<link rel="stylesheet" href="style.css">
 </head> 
 <body> 
 <div class="container"> 
 <div class="col col-1"> 
-<img src="vivek.jpg" alt="Profile picture" class="profile-pic" style="height: 200px;" 
+<img src="./port.png" alt="Profile picture" class="profile-pic" style="height: 200px;" 
 width="200px"/> 
 </div> 
 <div class="col col-2"> 
-<h1>Vivek Yadav</h1> 
+<h1>Abhishek Gharat</h1> 
 <p>Age: 23</p> 
 <p>Location: Punjab</p> 
 <p>Occupation: Front end Developer</p> 
@@ -46,7 +26,7 @@ width="200px"/>
 </div> 
 </div> 
 <script>
-    const name = "John Doe"; const age = 30; const location = "New York"; 
+    const name = "AbhishekS"; const age = 30; const location = "New York"; 
 const occupation = "Software Developer"; 
  
 document.querySelector("h1").textContent = name; document.querySelectorAll("p")[0].textContent = `Age: ${age}`; document.querySelectorAll("p")[1].textContent = `Location: ${location}`; document.querySelectorAll("p")[2].textContent = `Occupation: ${occupation}`; 
